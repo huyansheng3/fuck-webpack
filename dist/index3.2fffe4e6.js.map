@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/index3.js"],"names":[],"mappings":";;;;;AAAA;;AAEA","file":"index3.2fffe4e6.js","sourcesContent":["console.log('index3')\n\nconst test1 = () => import('./test1.js')\n\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/index3.js\n// module id = ./src/index3.js\n// module chunks = 8"],"sourceRoot":""}

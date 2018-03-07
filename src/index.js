@@ -1,21 +1,32 @@
 import _ from 'lodash'
-import './style.css'
-import ImageTest from './image.jpg'
-import Data from './data.xml'
+import printMe from './print.js'
+import React from 'react'
+import _ from 'underscore'
+import { cube } from './math.js'
+import './common.css'
 
 function component() {
-  var element = document.createElement('div')
-
-  // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ')
-  element.classList.add('hello')
-
-  const image = new Image()
-  image.src = ImageTest
-  element.appendChild(image)
-  console.log(Data)
+  var element = document.createElement('pre')
+  element.innerHTML = ['Hello webpack!', '5 cubed is equal to ' + cube(5)].join(
+    '\n\n'
+  )
 
   return element
 }
+
+console.log('dddd')
+console.log('dddd')
+console.log('dddd')
+
+setTimeout(() => {
+  console.log('dsadsa')
+})
+
+setTimeout(() => {
+  const a = () => import('./test1.1.js')
+  const b = () => import('./test1.2.js')
+  const c = () => import('./test1.3.js')
+  const d = () => import('./test1.4.js')
+}, 10000)
 
 document.body.appendChild(component())
