@@ -8,7 +8,9 @@
     "build": "node script/build.js",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --hotOnly",
-    "server": "node server.js"
+    "server": "node server.js",
+    "stats":
+      "NODE_ENV=production webpack --env production --profile --json --config='webpack.config.js' --output-filename='stats.json' > stats.json"
   },
   "author": "",
   "license": "ISC",
