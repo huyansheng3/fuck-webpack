@@ -1,0 +1,252 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.6.0",
+  "entrypoints": {
+    "index1": {
+      "chunks": [
+        9,
+        5,
+        7
+      ],
+      "assets": [
+        "runtime.22dc6a76.js",
+        "runtime.22dc6a76.js.map",
+        "vendor.4d370b0f.js",
+        "vendor.4d370b0f.js.map",
+        "index1.378a6f86.js",
+        "index1-f59d9d7c3f495eaa78fe1a6f7d907241.css",
+        "index1.378a6f86.js.map",
+        "index1-f59d9d7c3f495eaa78fe1a6f7d907241.css.map"
+      ]
+    },
+    "index2": {
+      "chunks": [
+        9,
+        5,
+        6
+      ],
+      "assets": [
+        "runtime.22dc6a76.js",
+        "runtime.22dc6a76.js.map",
+        "vendor.4d370b0f.js",
+        "vendor.4d370b0f.js.map",
+        "index2.f398c20e.js",
+        "index2-f59d9d7c3f495eaa78fe1a6f7d907241.css",
+        "index2.f398c20e.js.map",
+        "index2-f59d9d7c3f495eaa78fe1a6f7d907241.css.map"
+      ]
+    },
+    "index3": {
+      "chunks": [
+        9,
+        5,
+        8
+      ],
+      "assets": [
+        "runtime.22dc6a76.js",
+        "runtime.22dc6a76.js.map",
+        "vendor.4d370b0f.js",
+        "vendor.4d370b0f.js.map",
+        "index3.2fffe4e6.js",
+        "index3.2fffe4e6.js.map"
+      ]
+    },
+    "vendor": {
+      "chunks": [
+        9,
+        5
+      ],
+      "assets": [
+        "runtime.22dc6a76.js",
+        "runtime.22dc6a76.js.map",
+        "vendor.4d370b0f.js",
+        "vendor.4d370b0f.js.map"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 24,
+      "names": [],
+      "files": [
+        "0.eb94bd10.chunk.js",
+        "0.eb94bd10.chunk.js.map"
+      ],
+      "hash": "eb94bd10eded73ec8734",
+      "parents": [
+        8
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 26,
+      "names": [],
+      "files": [
+        "1.aea93fc1.chunk.js",
+        "1.aea93fc1.chunk.js.map"
+      ],
+      "hash": "aea93fc1b73e23645c62",
+      "parents": [
+        7
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 26,
+      "names": [],
+      "files": [
+        "2.b3ed0acc.chunk.js",
+        "2.b3ed0acc.chunk.js.map"
+      ],
+      "hash": "b3ed0acc1667de6e8ab1",
+      "parents": [
+        7
+      ]
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 26,
+      "names": [],
+      "files": [
+        "3.7d048dd4.chunk.js",
+        "3.7d048dd4.chunk.js.map"
+      ],
+      "hash": "7d048dd4443233eb83d0",
+      "parents": [
+        7
+      ]
+    },
+    {
+      "id": 4,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 26,
+      "names": [],
+      "files": [
+        "4.fe7ccfb7.chunk.js",
+        "4.fe7ccfb7.chunk.js.map"
+      ],
+      "hash": "fe7ccfb781c00023a40e",
+      "parents": [
+        7
+      ]
+    },
+    {
+      "id": 5,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 606821,
+      "names": [
+        "vendor"
+      ],
+      "files": [
+        "vendor.4d370b0f.js",
+        "vendor.4d370b0f.js.map"
+      ],
+      "hash": "4d370b0f02ff2747ef58",
+      "parents": [
+        9
+      ]
+    },
+    {
+      "id": 6,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 10217,
+      "names": [
+        "index2"
+      ],
+      "files": [
+        "index2.f398c20e.js",
+        "index2-f59d9d7c3f495eaa78fe1a6f7d907241.css",
+        "index2.f398c20e.js.map",
+        "index2-f59d9d7c3f495eaa78fe1a6f7d907241.css.map"
+      ],
+      "hash": "f398c20ed379774c65ce",
+      "parents": [
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 53958,
+      "names": [
+        "index1"
+      ],
+      "files": [
+        "index1.378a6f86.js",
+        "index1-f59d9d7c3f495eaa78fe1a6f7d907241.css",
+        "index1.378a6f86.js.map",
+        "index1-f59d9d7c3f495eaa78fe1a6f7d907241.css.map"
+      ],
+      "hash": "378a6f86029c2a64c498",
+      "parents": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 64,
+      "names": [
+        "index3"
+      ],
+      "files": [
+        "index3.2fffe4e6.js",
+        "index3.2fffe4e6.js.map"
+      ],
+      "hash": "2fffe4e658179170612c",
+      "parents": [
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 0,
+      "names": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.22dc6a76.js",
+        "runtime.22dc6a76.js.map"
+      ],
+      "hash": "22dc6a764d7687827cfb",
+      "parents": []
+    }
+  ]
+}
